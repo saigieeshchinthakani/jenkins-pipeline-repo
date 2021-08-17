@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
-                echo 'compiling source code...'
+                echo 'compiling source code.....'
             }
         }
         stage('Test') {
             steps {
-                echo 'testing source code...'
+                echo 'testing source code.....'
             }
         }
         stage('Package') {
@@ -19,7 +19,7 @@ pipeline {
         }
 	stage('deploy') {
 		steps {
-			echo 'deploying the  package......'
+			echo 'deploying the  package.....'
 		}
 	}
     }
